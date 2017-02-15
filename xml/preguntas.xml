@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questions>
+    <question id="q001">
+        <type>select</type>
+        <title>
+            1. Si explota un avión, ¿por dónde saldrías?
+        </title>
+        <option>a) Por la puerta de emergencia</option>
+        <option>b) Por una ventanilla</option>
+        <option>c) Por las noticias</option>
+        <answer>2</answer>
+    </question>
+    <question id="q002">
+        <type>select</type>
+        <title>
+            2. ¿Qué hace un pato con una pata?
+        </title>
+        <option>a) Formar una familia</option>
+        <option>b) Aparearse</option>
+        <option>c) Cojear</option>
+        <answer>2</answer>
+    </question>
+    <question id="q003">
+        <type>multiple</type>
+        <title>
+            3. ¿Cuál es el origen del Universo?
+        </title>
+        <option>a) Dios</option>
+        <option>b) Está claro que Dios</option>
+        <option>c) Dios es la respuesta a todo en la vida</option>
+        <answer>0</answer>
+        <answer>1</answer>
+        <answer>2</answer>
+    </question>
+    <question id="q004">
+        <type>multiple</type>
+        <title>
+            4. ¿Cuál es la respuesta a esta pregunta?
+        </title>
+        <option>a) Esta no</option>
+        <option>b) Esta tampoco</option>
+        <option>c) Esta sí</option>
+        <option>d) Y esta también</option>
+        <answer>2</answer>
+        <answer>3</answer>
+    </question>
+    <question id="q005">
+        <type>text</type>
+        <title>
+            5. ¿Qué pasó después de 1945?
+        </title>
+        <answer>1946</answer>
+    </question>
+    <question id="q006">
+        <type>text</type>
+        <title>
+            6. Si el checo es de Checoslovaquia, el chaleco es de...
+        </title>
+        <answer>Chalecoslovaquia</answer>
+    </question>
+    <question id="q007">
+        <type>radio</type>
+        <title>7.¿Que dura lo que dura dura?</title>
+        <option>
+            a) Pilas Duracell
+        </option>
+        <option>
+            b) La verdura
+        </option>
+        <option>
+            c) El amor
+        </option>
+        <option>
+            d) El reinado de Isabel II
+        </option>
+        <answer>2</answer>
+    </question>
+    <question id="q008">
+        <type>radio</type>
+        <title>8. ¿Cuál es el animal más rápido de la Sabana?</title>
+        <option>
+            a) Un guepardo
+        </option>
+        <option>
+            b) Un jaguar
+        </option>
+        <option>
+            c) El correcaminos
+        </option>
+        <option>
+            d) Una jirafa en un ferrari
+        </option>
+        <answer>3</answer>
+    </question>
+    <question id="q009">
+        <type>checkbox</type>
+        <title>
+            9. ¿Qué animal pone los huevos más gordos?
+        </title>
+        <option>a) La gallina</option>
+        <option>b) La avispa</option>
+        <option>c) El pterodáctilo</option>
+        <option>d) El avestruz</option>
+        <answer>1</answer>
+    </question>
+    <question id="q010">
+        <type>checkbox</type>
+        <title>
+            10. ¿Qué es lo primero que hace una vaca cuando sale el Sol?
+        </title>
+        <option>a) Ir a pastar</option>
+        <option>b) Dormir</option>
+        <option>c) Sombra</option>
+        <answer>2</answer>
+    </question>
+</questions>
