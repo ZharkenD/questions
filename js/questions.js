@@ -211,9 +211,9 @@ function corregirTXT(valor, correcto, mAcierto, mFallo) {
 
 
 function corregirRadio(radio, correcto, mAcierto, mFallo, atributo) {
-  var value = -1;//Este valor se debe a que no hay selección para comparar
+  var value = -1;//No hay selección para comparar
   for(i = 0; i < radio.length; i++) {
-    if(radio[i].checked) {//si se encuentra lo seleccionado, se cambia value y se sale
+    if(radio[i].checked) {//si se encuentra lo seleccionado, se cambia value y sale
       value = i;
       break;
     }
