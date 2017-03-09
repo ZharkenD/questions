@@ -1,4 +1,4 @@
-body,html{background:#F4F4F4;height:100%;padding:0px;margin:0px;}
+body,html{background:#F0FFFF;height:100%;padding:0px;margin:0px;}
 
 #paramenu {
   font-family: "Times New Roman", Times, serif;
@@ -10,7 +10,8 @@ body,html{background:#F4F4F4;height:100%;padding:0px;margin:0px;}
   display: block;
   position: relative;
   float: left;
-  margin: 1% 0 0 15%;
+  float: top;
+  margin-left: 1%;
   width:30%;
   height:30%;
 }
@@ -24,8 +25,8 @@ body,html{background:#F4F4F4;height:100%;padding:0px;margin:0px;}
   text-align: center;
 }
 
-#rectorado {
-  width: 60%;
+#campus {
+  width: 100%;
   height: 60%;
   margin:auto;
   display:block;
@@ -45,7 +46,7 @@ body,html{background:#F4F4F4;height:100%;padding:0px;margin:0px;}
   margin: 0% 0% 10% 35%;
 }
 #examen {
-  background: #DCD0C0;
+  background: #DEB887;
   width: 80%;
   height: 100%;
   margin: 15% 20% 0% 10%;
@@ -58,7 +59,7 @@ body,html{background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 }
 
 #resultados {
-  background: #DCD0C0;
+  background: #DEB887;
   width: 80%;
   height: 0%;
   margin:auto;
@@ -74,7 +75,7 @@ body,html{background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 }
 
 #instrucciones {
-  background: #F4F4F4;
+  background: #DEB887;
   width: 80%;
   height: 15%;
   margin: 5% 10% 20% 10%;
@@ -84,7 +85,7 @@ body,html{background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 }
 
 .caja1 {
-  background: #DCD0C0;
+  background: #DEB887;
   width: 80%;
   height: 100%;
   margin:auto;
@@ -107,7 +108,7 @@ h1 {
 h2 {
   color: black;
   text-align: center;
-  margin: 0% 40% 0% 25%;
+  font-size: 5vw;
 }
 
 h3 {
@@ -117,7 +118,7 @@ h3 {
 
 h5 {
   padding: 10px;
-  background-color: #DCD0C0;
+  background-color: #DEB887;
   color: black;
   text-align: center;
 }
