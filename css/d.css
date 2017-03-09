@@ -9,7 +9,7 @@ body,html {background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 #logo {
   display: block;
   width: 10%;
-  position: absolute;
+  position: fixed;
   float: left;
   margin-top: 1%;
   margin-left: 5%;
@@ -27,7 +27,7 @@ body,html {background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 #rectorado {
   width: 60%;
   height: 60%;
-  margin-left:25%;
+  margin-left:30%;
   display:block;
 }
 
