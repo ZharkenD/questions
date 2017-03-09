@@ -35,22 +35,22 @@ window.onload = function(){
     //q001
     corregirTXT(formElement.getElementsByClassName("texto")[0].value, answer1_txt, "Pregunta 1: correcta", "Pregunta 1: Incorrecta, la respuesta correcta es: " + answer1_txt);
     //q002
-    corregirRadio(formElement.programa, answer2_rad, "Pregunta 2: correcta", "Pregunta 2: Incorrecta, la respuesta correcta es: ", "programa");
+    corregirRadio(formElement.programa, answer2_rad, "Pregunta 2: correcta", "Pregunta 2: Incorrecta, la respuesta correcta es: ");
     //q003
     corregirTXT(formElement.getElementsByClassName("texto")[1].value, answer3_txt, "Pregunta 3: correcta", "Pregunta 3: Incorrecta, la respuesta correcta es: " + answer3_txt);
     //q004
     corregirSelect(formElement.getElementsByTagName("select")[0], answer4_sel, "Pregunta 4: correcta", "Pregunta 4: Incorrecta, la respuesta correcta es: ");
     //q005
-    corregirRadio(formElement.programa, answer5_rad, "Pregunta 5: correcta", "Pregunta 5: Incorrecta, la respuesta correcta es: ", "interferencia");
+    corregirRadio(formElement.programa, answer5_rad, "Pregunta 5: correcta", "Pregunta 5: Incorrecta, la respuesta correcta es: ");
     //q006
     corregirSelect(formElement.getElementsByTagName("select")[1], answer6_sel, "Pregunta 6: correcta", "Pregunta 6: Incorrecta, la respuesta correcta es: ");
     //q007
-    corregirCheckbox1(formElement.elementos, answer7_check, "Pregunta 7: correcto", "Pregunta 7: Incorrecta(s), las respuestas correctas son: ", "elementos");
+    corregirCheckbox1(formElement.elementos, answer7_check, "Pregunta 7: correcto", "Pregunta 7: Incorrecta(s), las respuestas correctas son: ");
     //q008
     corregirMultiple(formElement.getElementsByTagName("select")[2], answer8_mul, "Pregunta 8: correcta(s)", "Pregunta 8: Incorrecta, las respuestas correctas son: ");
     //q009
     function ponera0checkbox (){var acertadas = 0};
-    corregirCheckbox2(formElement.formatos, answer9_check, "Pregunta 9: correcta", "Pregunta 9: Incorrecta(s), las respuestas correctas son: ", "formatos");
+    corregirCheckbox2(formElement.formatos, answer9_check, "Pregunta 9: correcta", "Pregunta 9: Incorrecta(s), las respuestas correctas son: ");
    //Corregir pregunta 10 multiple
     corregirMultiple(formElement.getElementsByTagName("select")[3], answer10_mul, "Pregunta 10: correcta", "Pregunta 10: Incorrecta, las respuestas correctas son: ");
     presentarNota();
@@ -316,7 +316,7 @@ function corregirCheckbox2(checkbox, correcto, mAcierto, mFallo, atributo) {
 }
 
 
-//****************************************************************************************************
+//----------------------------------------------------------------------------------------------------
 // poner los datos recibidos en el HTML
 
 
@@ -354,7 +354,7 @@ function ponerDatosCheckboxHtml(elementoHTML, elementoXML, chkbx_HTML, checkboxO
 }
 
 
-//****************************************************************************************************
+//----------------------------------------------------------------------------------------------------
 //Gestionar la presentación de las respuestas
 
 
