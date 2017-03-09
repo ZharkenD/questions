@@ -77,120 +77,120 @@ function gestionarXml(datosXml){
 
  //q001
   pregXML = xmlDoc.getElementsByTagName("title")[0].innerHTML;
-  preg_HTML = document.getElementById("preg001");
+  preg_HTML = document.getElementById("q001");
   ponerdatosTXT(preg_HTML, pregXML);
-  answer1_txt = xmlDoc.getElementById("preg001").getElementsByTagName("answer")[0].innerHTML;
+  answer1_txt = xmlDoc.getElementById("q001").getElementsByTagName("answer")[0].innerHTML;
 
  //q002
   pregXML = xmlDoc.getElementsByTagName("title")[1].innerHTML;
-  preg_HTML = document.getElementById("preg002");
+  preg_HTML = document.getElementById("q002");
   rad_HTML = document.getElementsByClassName("radio")[0];
-  opciones = xmlDoc.getElementById("preg002").getElementsByTagName("option").length;
+  opciones = xmlDoc.getElementById("q002").getElementsByTagName("option").length;
   for(i = 0; i < opciones; i++)  {
-    chkbx_radi_opciones[i] = xmlDoc.getElementById("preg002").getElementsByTagName("option")[i].innerHTML;
+    chkbx_radi_opciones[i] = xmlDoc.getElementById("q002").getElementsByTagName("option")[i].innerHTML;
   }
   ponerDatosCheckboxHtml(preg_HTML, pregXML, rad_HTML, chkbx_radi_opciones, "programa", "radio");
-  answer2_rad = parseInt(xmlDoc.getElementById("preg002").getElementsByTagName("answer")[0].innerHTML);
+  answer2_rad = parseInt(xmlDoc.getElementById("q002").getElementsByTagName("answer")[0].innerHTML);
   chkbx_radi_opciones = [];
 
  //q003
   pregXML = xmlDoc.getElementsByTagName("title")[2].innerHTML;
-  preg_HTML = document.getElementById("preg003");
+  preg_HTML = document.getElementById("q003");
   ponerdatosTXT(preg_HTML, pregXML);
-  answer3_txt = xmlDoc.getElementById("preg003").getElementsByTagName("answer")[0].innerHTML;
+  answer3_txt = xmlDoc.getElementById("q003").getElementsByTagName("answer")[0].innerHTML;
 
  //q004
   pregXML = xmlDoc.getElementsByTagName("title")[3].innerHTML;
-  preg_HTML = document.getElementById("preg004");
+  preg_HTML = document.getElementById("q004");
   select_HTML = document.getElementsByTagName("select")[0];
-  opciones = xmlDoc.getElementById("preg004").getElementsByTagName("option").length;
+  opciones = xmlDoc.getElementById("q004").getElementsByTagName("option").length;
   for(i = 0; i < opciones; i++) {
-    sel_mul_opciones[i] = xmlDoc.getElementById("preg004").getElementsByTagName("option")[i].innerHTML;
+    sel_mul_opciones[i] = xmlDoc.getElementById("q004").getElementsByTagName("option")[i].innerHTML;
   }
   ponerDatosSelectHtml(preg_HTML, pregXML, select_HTML, sel_mul_opciones);
-  answer4_sel = parseInt(xmlDoc.getElementById("preg004").getElementsByTagName("answer")[0].innerHTML);
+  answer4_sel = parseInt(xmlDoc.getElementById("q004").getElementsByTagName("answer")[0].innerHTML);
 
  //q005
   pregXML = xmlDoc.getElementsByTagName("title")[4].innerHTML;
-  preg_HTML = document.getElementById("preg005");
+  preg_HTML = document.getElementById("q005");
   rad_HTML = document.getElementsByClassName("radio")[1];
-  opciones = xmlDoc.getElementById("preg005").getElementsByTagName("option").length;
+  opciones = xmlDoc.getElementById("q005").getElementsByTagName("option").length;
   for(i = 0; i < opciones; i++)  {
-    chkbx_radi_opciones[i] = xmlDoc.getElementById("preg005").getElementsByTagName("option")[i].innerHTML;
+    chkbx_radi_opciones[i] = xmlDoc.getElementById("q005").getElementsByTagName("option")[i].innerHTML;
   }
   ponerDatosCheckboxHtml(preg_HTML, pregXML, rad_HTML, chkbx_radi_opciones, "interferencia", "radio");
-  answer5_rad = parseInt(xmlDoc.getElementById("preg005").getElementsByTagName("answer")[0].innerHTML);
+  answer5_rad = parseInt(xmlDoc.getElementById("q005").getElementsByTagName("answer")[0].innerHTML);
   chkbx_radi_opciones = [];
 
  //q006
   pregXML = xmlDoc.getElementsByTagName("title")[5].innerHTML;
-  preg_HTML = document.getElementById("preg006");
+  preg_HTML = document.getElementById("q006");
   select_HTML = document.getElementsByTagName("select")[1];
-  opciones = xmlDoc.getElementById("preg006").getElementsByTagName("option").length;
+  opciones = xmlDoc.getElementById("q006").getElementsByTagName("option").length;
   for(i = 0; i < opciones; i++) {
-    sel_mul_opciones[i] = xmlDoc.getElementById("preg006").getElementsByTagName("option")[i].innerHTML;
+    sel_mul_opciones[i] = xmlDoc.getElementById("q006").getElementsByTagName("option")[i].innerHTML;
   }
   ponerDatosSelectHtml(preg_HTML, pregXML, select_HTML, sel_mul_opciones);
-  answer6_sel = parseInt(xmlDoc.getElementById("preg006").getElementsByTagName("answer")[0].innerHTML);
+  answer6_sel = parseInt(xmlDoc.getElementById("q006").getElementsByTagName("answer")[0].innerHTML);
   
  //q007
   pregXML = xmlDoc.getElementsByTagName("title")[6].innerHTML;
-  preg_HTML = document.getElementById("preg007");
+  preg_HTML = document.getElementById("q007");
   chkbx_HTML = document.getElementsByClassName("checkbox")[0];
-  opciones = xmlDoc.getElementById("preg007").getElementsByTagName("option").length;
+  opciones = xmlDoc.getElementById("q007").getElementsByTagName("option").length;
   for(i = 0; i < opciones; i++) {
-    chkbx_radi_opciones[i] = xmlDoc.getElementById("preg007").getElementsByTagName("option")[i].innerHTML;
+    chkbx_radi_opciones[i] = xmlDoc.getElementById("q007").getElementsByTagName("option")[i].innerHTML;
   }
   ponerDatosCheckboxHtml(preg_HTML, pregXML, chkbx_HTML, chkbx_radi_opciones, "elementos", "checkbox");
-  res_chkbx = xmlDoc.getElementById("preg007").getElementsByTagName("answer").length;
+  res_chkbx = xmlDoc.getElementById("q007").getElementsByTagName("answer").length;
   for(i = 0; i < res_chkbx; i++)  {
-    answer7_check[i] = parseInt(xmlDoc.getElementById("preg007").getElementsByTagName("answer")[i].innerHTML);
+    answer7_check[i] = parseInt(xmlDoc.getElementById("q007").getElementsByTagName("answer")[i].innerHTML);
   }
   chkbx_radi_opciones = [];
 
  //q008
   pregXML = xmlDoc.getElementsByTagName("title")[7].innerHTML;
-  preg_HTML = document.getElementById("preg008");
+  preg_HTML = document.getElementById("q008");
   select_HTML = document.getElementsByTagName("select")[2];
-  opciones = xmlDoc.getElementById("preg008").getElementsByTagName("option").length;
+  opciones = xmlDoc.getElementById("q008").getElementsByTagName("option").length;
   for(i = 0; i < opciones; i++)  {
-    sel_mul_opciones[i] = xmlDoc.getElementById("preg008").getElementsByTagName("option")[i].innerHTML;
+    sel_mul_opciones[i] = xmlDoc.getElementById("q008").getElementsByTagName("option")[i].innerHTML;
   }
   ponerDatosSelectHtml(preg_HTML, pregXML, select_HTML, sel_mul_opciones);
-  res_mul = xmlDoc.getElementById("preg008").getElementsByTagName("answer").length;
+  res_mul = xmlDoc.getElementById("q008").getElementsByTagName("answer").length;
   for(i = 0; i < res_mul; i++)
   {
-    answer8_mul[i] = parseInt(xmlDoc.getElementById("preg008").getElementsByTagName("answer")[i].innerHTML);
+    answer8_mul[i] = parseInt(xmlDoc.getElementById("q008").getElementsByTagName("answer")[i].innerHTML);
   }
 
   //q009
   pregXML = xmlDoc.getElementsByTagName("title")[8].innerHTML;
-  preg_HTML = document.getElementById("preg009");
+  preg_HTML = document.getElementById("q009");
   chkbx_HTML = document.getElementsByClassName("checkbox")[1];
-  opciones = xmlDoc.getElementById("preg009").getElementsByTagName("option").length;
+  opciones = xmlDoc.getElementById("q009").getElementsByTagName("option").length;
   for(i = 0; i < opciones; i++) {
-    chkbx_radi_opciones[i] = xmlDoc.getElementById("preg009").getElementsByTagName("option")[i].innerHTML;
+    chkbx_radi_opciones[i] = xmlDoc.getElementById("q009").getElementsByTagName("option")[i].innerHTML;
   }
   ponerDatosCheckboxHtml(preg_HTML, pregXML, chkbx_HTML, chkbx_radi_opciones, "formatos", "checkbox");
-  res_chkbx = xmlDoc.getElementById("preg009").getElementsByTagName("answer").length;
+  res_chkbx = xmlDoc.getElementById("q009").getElementsByTagName("answer").length;
   for(i = 0; i < res_chkbx; i++)  {
-    answer9_check[i] = parseInt(xmlDoc.getElementById("preg009").getElementsByTagName("answer")[i].innerHTML);
+    answer9_check[i] = parseInt(xmlDoc.getElementById("q009").getElementsByTagName("answer")[i].innerHTML);
   }
   chkbx_radi_opciones = [];
  
  //q010
   pregXML = xmlDoc.getElementsByTagName("title")[9].innerHTML;
-  preg_HTML = document.getElementById("preg010");
+  preg_HTML = document.getElementById("q010");
   select_HTML = document.getElementsByTagName("select")[3];
-  opciones = xmlDoc.getElementById("preg010").getElementsByTagName("option").length;
+  opciones = xmlDoc.getElementById("q010").getElementsByTagName("option").length;
   for(i = 0; i < opciones; i++)  {
-    sel_mul_opciones[i] = xmlDoc.getElementById("preg010").getElementsByTagName("option")[i].innerHTML;
+    sel_mul_opciones[i] = xmlDoc.getElementById("q010").getElementsByTagName("option")[i].innerHTML;
   }
   ponerDatosSelectHtml(preg_HTML, pregXML, select_HTML, sel_mul_opciones);
-  res_mul = xmlDoc.getElementById("preg010").getElementsByTagName("answer").length;
+  res_mul = xmlDoc.getElementById("q010").getElementsByTagName("answer").length;
   for(i = 0; i < res_mul; i++)
   {
-    answer10_mul[i] = parseInt(xmlDoc.getElementById("preg010").getElementsByTagName("answer")[i].innerHTML);
+    answer10_mul[i] = parseInt(xmlDoc.getElementById("q010").getElementsByTagName("answer")[i].innerHTML);
   }
 
 }
