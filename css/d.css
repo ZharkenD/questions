@@ -8,9 +8,11 @@ body,html {background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 
 #logo {
   display: block;
+  width: 10%;
   position: absolute;
   float: left;
-  margin: 1% 0 0 15%;
+  margin-top: 1%;
+  margin-left: 5%;
 }
 
 #titulo1 {
@@ -25,7 +27,7 @@ body,html {background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 #rectorado {
   width: 60%;
   height: 60%;
-  margin:auto;
+  margin-left:25%;
   display:block;
 }
 
